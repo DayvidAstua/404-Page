@@ -1,0 +1,50 @@
+html{
+  min-width: 100%;
+  min-height: 100%;
+  background-color: lightgrey;
+  background: -webkit-linear-gradient(0deg,#F7F4F7,#AAA8AA);
+  background: -o-linear-gradient(0deg,#F7F4F7,#AAA8AA);
+  background: -moz-linear-gradient(0deg,#F7F4F7,#AAA8AA);
+  background: linear-gradient(0deg,#F7F4F7,#AAA8AA);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+
+}
+
+img.center{
+ display: block;
+margin-left: auto;
+margin-right: auto;
+width: 540px;
+height: auto;
+box-shadow: 0 4px 8px 0 #383838, 0 6px 20px 0 #383838
+}
+
+h1{
+  font-size: 72px;
+  color: white;
+  text-shadow: 1.5px 1.5px #383838;
+  text-align: center;
+}
+
+.button{
+  display: block;
+	height: 50px;
+	width: 150px;
+  background: #8a8882;
+	border: 2px solid darkgrey;
+
+
+  color: white;
+	text-align: center;
+	font: bold 1.6em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a.button {
+	text-decoration: none;
+}
